@@ -8,7 +8,7 @@ from datetime import datetime
 # 1. 設定區：請填入你的 Google Sheet ID
 # ==========================================
 # 網址中 /d/ 之後到 /edit 之前的那串字元就是 ID
-SHEET_ID = "YOUR_SHEET_ID_HERE" 
+SHEET_ID = "13n6P6Kcnmzj_xx2kTJJYlMXKrJ226HlnEV2rV_CjYBo" 
 
 # ==========================================
 # 2. 核心功能：讀取 Google Sheets (免金鑰穩定版)
