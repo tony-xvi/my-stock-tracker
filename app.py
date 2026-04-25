@@ -5,7 +5,7 @@ import yfinance as yf
 # ==========================================
 # 填入你「發佈到網路」得到的那個 CSV 網址
 # ==========================================
-CSV_URL = "這裡貼上你剛剛發佈得到的 CSV 網址"
+CSV_URL = "https://docs.google.com/spreadsheets/d/e/2PACX-1vTkNPFE9Hxuu4HfRVSdfYuO4VVFeNNMX08LIBNd-glPv-8A2MovJUrFetlCqTtKLs7unXN7m_DSAAIv/pub?output=csv"
 
 st.set_page_config(page_title="資產監測站", layout="wide")
 
