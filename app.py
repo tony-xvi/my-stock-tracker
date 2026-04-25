@@ -14,7 +14,7 @@ SHEET_ID = "YOUR_SHEET_ID_HERE"
 # 2. 核心功能：讀取 Google Sheets (免金鑰穩定版)
 # ==========================================
 def get_sheet_url(sheet_name):
-    return f"https://docs.google.com/spreadsheets/d/{SHEET_ID}/gviz/tq?tqx=out:csv&sheet={sheet_name}"
+    return f"https://docs.google.com/spreadsheets/d/13n6P6Kcnmzj_xx2kTJJYlMXKrJ226HlnEV2rV_CjYBo/edit?usp=sharing"
 
 @st.cache_data(ttl=300) # 每 5 分鐘自動刷新一次
 def load_all_data():
